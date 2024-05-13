@@ -1,0 +1,269 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff; 
+    font-family: "Rajdhani", sans-serif;
+    margin: 0; 
+    height: 100%;
+}
+
+li{
+    line-height: 24px;
+}
+
+
+/* Contenido principal */
+
+.contenedor-principal {
+    display: flex;  
+    flex-direction: column; 
+    width: 100%;  
+    height: 100vh; 
+    max-height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+
+
+
+/* Informacion general */
+
+.informacion-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text_principal_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0;
+    border-radius: 10px;
+    max-width: 96%;
+    box-shadow: 0 0 20px #6b646442;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-top: 4px solid #1c9496;
+    border-bottom: 4px solid #1c9496;
+ 
+}
+
+
+
+
+.experiencia__contenedor {
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 500;
+    font-style: normal;
+    
+    
+}
+
+.titulo-experiencia {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    background: #1c9496;
+    color: #fff;
+    width: 100%; 
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-style: normal;
+    
+   
+}
+
+.descripcion__delegado{
+    font-size: 14px;
+    text-align: justify; 
+    text-justify: inter-word; 
+    padding: 15px 15px 5px 15px;
+}
+
+.descripcion-texto {
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+      
+}
+@media only screen and (max-width: 600px) {
+    .descripcion-texto {
+        width: auto; 
+        font-size: 12px; 
+        line-height: 20px; 
+    }
+}
+
+
+.contenedor__imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to bottom, #1c9496, #fff);
+    height: 170px;
+}
+
+.imagen_principal{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    padding: 3px;
+    box-shadow: 0 0 15px #ffffff86;
+    object-fit: cover;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.contenedor{
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+}
+
+.descripcion-profesion {
+    font-size: 23px;
+    margin: 0;
+    max-width: 100%;
+    font-weight: 600;
+    font-style: normal;
+    width: 100%;
+  
+    
+}
+
+
+.cont {
+    background: #1c9496;
+    color: white;
+    width: 100%; 
+    text-align: center;
+    padding: 2px;
+    margin: 8px 0;
+}
+
+.comision__contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 14px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nombre-comision {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    background: #1c9496;
+    color: white;
+    width: 100%; 
+    
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-style: normal;
+   
+}
+
+.informacion__comision__contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px; 
+}
+
+.comision__contenedor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    padding: 3px;
+    
+}
+
+.informacion__comision{
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+
+}
+
+.informacion__diputado__contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+
+.descripcion-informacion__diputado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    
+}
+
+.informacion__diputado__campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.informacion__diputado {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5px;  
+    text-align: start;      
+    
+}
+
+.informacion__diputado span {
+    color: #b2dfc5;
+    text-shadow: 1px 1px 2px #000;;
+}
+
+.campos{
+    text-align: right !important;
+}
+
+.nombre {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5px;        
+}
